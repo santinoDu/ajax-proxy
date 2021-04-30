@@ -1,0 +1,16 @@
+{
+   "author": "Dujia",
+   "version": "1.0.0",
+   "name": "Ajax proxy",
+   "description": "ajax proxy",
+   "devtools_page": "devtools/devtools.html",
+   "icons": {
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "128": "images/icon128.png"
+   },
+   "manifest_version": 2,
+   "permissions": [ "debugger", "storage", "activeTab", "http://*/*", "https://*/*" ],
+   "short_name": "ajax proxy",
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
